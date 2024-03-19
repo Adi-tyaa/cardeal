@@ -1,0 +1,81 @@
+
+
+.modelpage{
+    display: flex;
+    margin-top: 2%;
+}
+.filters{
+    flex: 0 0 20%;
+    margin-left: 20px;
+    
+}
+select{
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    
+}
+input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+label{
+    font-size: 17px;
+    margin-top: 20px;
+}
+form{
+    border: 1px solid rgb(212, 208, 208);
+    padding: 20px;
+    padding-top: 0px;
+    
+}
+.grid-container{
+  margin-top: 2%;
+  flex: 0 0 70%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+._row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+._row>div{
+    flex: 0 0 30%;
+    border: 1px solid rgb(181, 178, 178);
+    border-radius: 20px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+  }
+  .btn button{
+    text-align: center;
+    flex: 0 0 47%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+  }
+  .pagination {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .page-link {
+    margin-right: 8px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .page-link:hover {
+    background-color: lightgray;
+  }
+  

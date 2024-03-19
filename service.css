@@ -1,0 +1,50 @@
+div>div>div>img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    
+    box-shadow: 8px 8px rgb(231, 229, 229);
+  }
+  div>div>div>img:hover{
+    box-shadow: 0px 0px;
+    transition: 0.5s;
+  }
+  #table td{
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+  }
+  
+  #schedule{
+    padding: 10px 100px 10px 100px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: larger;
+    background-color:orangered;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  .testimonial-slider {
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    
+}
+
+.testimonial {
+    flex: 0 0 30%; /* Set width of each testimonial to 33.33% */
+    margin-right: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(183, 177, 177);
+    border-radius: 5px;
+    width: 400px;
+}
+
+
+
+ 

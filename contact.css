@@ -1,0 +1,61 @@
+input{
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    border-color: aliceblue;
+}
+.leftdiv{
+    margin-left: 20px;
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: -50px;
+    
+}
+form{
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+textarea{
+    overflow: auto;
+    resize: vertical;
+    width: 98%;
+    margin-bottom: 30px;
+}
+.gmap{
+    margin-left: 60px;
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: -100px;
+    flex-direction: column;
+    display: flex;
+}
+div div{
+    background-color: white;
+  }
+  .container{
+    margin-bottom: 17px;
+  }
+  iframe{
+    border: 1px solid black;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+  }
+  .btn button{
+    text-align: center;
+    flex: 0 0 47%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+  }
+  label{
+    font-size: 20px;
+    
+  }
+  

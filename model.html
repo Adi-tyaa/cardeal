@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vehicle Models</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="model.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Logo" id="logo">
+          <img src="carlogo1.png" height="80px" width="130px" />
+        </div>
+        <div class="nav" id="navbar">
+          <ul>
+            <li><a href="test.html" target="_blank">Home</a></li>
+            <li><a href="about.html" target="_blank">About </a></li>
+            <li><a href="model.html">Vehicle Models</a></li>
+            <li><a href="service.html" target="_blank">Our Services</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+        <div class="signIn">
+            <button id="signin">Sign In</button>
+            <button id="register">Register</button>
+          </div>
+    </div>
+
+
+    <div class="modelpage">
+      <div class="filters">
+        
+          <form>
+            <h2 style="text-align: center;padding-top: 0px;">Filters</h2>
+              <label for="country">Select type:</label><br>
+              <select id="country" name="country"><br>
+                <option value="usa"></option>
+                <option value="canada">New</option>
+                <option value="uk">Used</option>
+                <option value="australia">Demo</option>
+              </select>
+               <br><label for="country">Select deal:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">yes</option>
+                <option value="uk">No</option>
+              </select>
+  
+             <br> <label for="country">Brand:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Hyundai</option>
+                <option value="uk">Toyota</option>
+                <option value="australia">Ford</option>
+                <option value="canada">Honda</option>
+                <option value="uk">Bentley</option>
+                <option value="australia">BMW</option>
+              </select>
+  
+              <br><label for="country">Select type:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Carnival</option>
+                <option value="uk">E class</option>
+                <option value="australia">Urus</option>
+                <option value="canada">F pace</option>
+                <option value="uk">3 series</option>
+                <option value="australia">camry</option>
+              </select>
+  
+              <br><label for="country">Colour:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Black</option>
+                <option value="uk">White</option>
+                <option value="australia">Red</option>
+                <option value="canada">Yellow</option>
+                <option value="uk">Green</option>
+                <option value="australia">Grey</option>
+              </select>
+  
+              <br><label for="country">Fuel:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Desiel</option>
+                <option value="uk">Petrol</option>
+                <option value="australia">CNG</option>
+                <option value="canada">Battery</option>
+              </select>
+  
+              <br><label for="country">Transmission:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Automatic</option>
+                <option value="uk">Manual</option>
+              </select>
+  
+              <br><label for="country">Certified:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Yes</option>
+                <option value="uk">No</option>
+                
+              </select>
+              <br><label for="country">Status:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Available</option>
+                <option value="uk">Upcoming</option>
+              </select>
+              <br><label for="country">Assembly:</label><br>
+              <select id="country" name="country">
+                <option value="usa"></option>
+                <option value="canada">Imported</option>
+                <option value="uk">Local</option>
+                
+              </select>
+  
+              <br><label for="slider1">Model year min:</label>
+              <br><input type="range" id="slider1" name="slider" min="0" max="100" value="20">
+              Value: <span id="value1">20</span>
+  
+              <br><label for="slider2">Model year max:</label>
+              <br><input type="range" id="slider2" name="slider" min="2007" max="2024" value="2024">
+              Value: <span id="value2">2024</span>
+  
+              <br><label for="slider2">Min price:</label>
+              <br><input type="range" id="slider3" name="slider" min="5" max="50" value="5">
+              Value: <span id="value3">5</span> Lakh
+  
+              <br><label for="slider2">Max price:</label>
+              <br><input type="range" id="slider4" name="slider" min="1" max="2" value="2">
+              Value: <span id="value4">2</span> Crore
+              
+              <br><label for="slider2">Kms min:</label>
+              <br><input type="range" id="slider5" name="slider" min="0" max="100000" value="0">
+              Value: <span id="value5">0</span> Kms
+  
+              <br><label for="slider2">Kms max:</label>
+              <br><input type="range" id="slider6" name="slider" min="0" max="5000000" value="5000000">
+              Value: <span id="value6">5000000</span> Kms
+              <div class="btn">
+                <button type="submit">Apply</button>
+                <button type="reset">Reset</button>
+              </div>
+            </form>
+      </div>
+  
+      <div class="grid-container">
+        <div class="_row">
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+          <div>
+            <h3>Volkswagon</h3>
+            <p>Polo</p>
+            <p>5.5 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>2 Varients</span></p>
+          </div>
+          <div>
+            <h3>Toyota</h3>
+            <p>Innova</p>
+            <p>18.3 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>15 Varients</span></p>
+          </div>
+        </div>
+        <div class="_row">
+          <div>
+            <h3>Toyota</h3>
+            <p>Hyryder</p>
+            <p>10.48 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>16 Varients</span></p>
+          </div>
+          <div>
+            <h3>Audi</h3>
+            <p>A8 L</p>
+            <p>1.34 Crore Onwards (Ex-Showroom)</p>
+            <p><span>2 Varients</span></p>
+          </div>
+          <div>
+            <h3>Tata</h3>
+            <p>Safari</p>
+            <p>10.99 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>8 Varients</span></p>
+          </div>
+        </div>
+        <div class="_row">
+          <div>
+            <h3>Tata</h3>
+            <p>punch</p>
+            <p>5.93 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>20 Varients</span></p>
+          </div>
+          <div>
+            <h3>Toyota</h3>
+            <p>Glanza</p>
+            <p>6.53 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>7 Varients</span></p>
+          </div>
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+        </div>
+        <div class="_row">
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+        </div>
+        <div class="_row">
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+          <div>
+            <h3>Maruti</h3>
+            <p>Fronx</p>
+            <p>7.46 Lakhs Onwards (Ex-Showroom)</p>
+            <p><span>12 Varients</span></p>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="#" class="page-link">1</a>
+          <a href="#" class="page-link">2</a>
+          <a href="#" class="page-link">3</a>
+          <a href="#" class="page-link">4</a>
+          <a href="#" class="page-link">5</a>
+          <!-- Add more links for additional pages as needed -->
+        </div>
+        
+
+        
+        </div>
+  </div>
+  
+  <div class="logo">
+    <h2>Download our app to get most out of it</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Ipsam architecto nemo odio qui harum porro et illum rem </p>
+       <div>
+          <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1" target="_blank"><img src="playstore.png" alt=""></a>
+          <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="appstore.png" alt=""></a>
+        </div>
+      </div>
+      
+  
+  <div class="phone">
+    <img src="phone.png" alt="">
+  </div>
+  <div class="phoneback"><img src="phoneback.png" alt=""></div>
+  
+  <div class="lastdiv">
+    <div class="last" id="coll1">
+      <p><b>CAR</b> Deal</p>
+      <p id="pp">We offers a big range of vehicles for all your driving needs.
+        We have the perfect car to meet your needs.
+      </p>
+      <p style="font-weight: bold;">&#128222;(123)-456-789</p>
+      <p style="font-weight: bold; margin-top: -6px;">&#x1F4E7;cardeal@gmail.com</p>
+    </div>
+    <div class="last" id="coll2">
+      <h3>COMPANY</h3>
+      <ul>
+        <li>New York</li>
+        <li>Careers</li>
+        <li>Mobile</li>
+        <li>Blog</li>
+        <li>How we work</li>
+      </ul>
+    </div>
+    <div class="last" id="coll3">
+      <h3>Working Hours</h3>
+      <p>Mon-Fri: 9:00AM - 9:00PM</p>
+      <p>Sat: 9:00M - 7:00PM</p>
+      <p>Sun: Closed</p>
+    </div>
+    <div class="last" id="coll4">
+      <h3>SUBSCRIPTION</h3>
+      <p>Subscribe your Email address for latest news & updates</p>
+      <input type="text" placeholder="Enter Email Address" id="lastemail"><br>
+      <button id="lastsub">Submit</button>
+    </div>
+  </div>
+
+  
+  <script>
+
+      let slider1 = document.getElementById('slider1');
+      let value1 = document.getElementById('value1');
+      
+      slider1.addEventListener('input', function() {
+      value1.innerHTML = this.value;
+  });
+      
+      let slider2 = document.getElementById('slider2');
+      let value2 = document.getElementById('value2');
+      
+      slider2.addEventListener('input', function() {
+      value2.innerHTML = this.value;
+  });
+  
+  let slider3 = document.getElementById('slider3');
+      let value3 = document.getElementById('value3');
+      
+      slider3.addEventListener('input', function() {
+      value3.innerHTML = this.value;
+  });
+  
+  let slider4 = document.getElementById('slider4');
+      let value4 = document.getElementById('value4');
+      
+      slider4.addEventListener('input', function() {
+      value4.innerHTML = this.value;
+  });
+  
+  let slider5 = document.getElementById('slider5');
+      let value5 = document.getElementById('value5');
+      
+      slider5.addEventListener('input', function() {
+      value5.innerHTML = this.value;
+  });
+  
+  let slider6 = document.getElementById('slider6');
+      let value6 = document.getElementById('value6');
+      
+      slider6.addEventListener('input', function() {
+      value6.innerHTML = this.value;
+  });
+      
+
+  
+  </script>
+    
+</body>
+</html>
