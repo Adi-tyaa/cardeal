@@ -300,9 +300,15 @@ div p{
   text-align: left;
 }
 #box-1 td{
-  padding: 7% 10%;
+  
   width: 200px;
   font-weight: 700;
+}
+#box-1 td button{
+  background: transparent;
+  padding: 8% 11%;
+  width: 200px;
+  border: none;
 }
 #box-1 td:hover{
   background-color: orangered;
