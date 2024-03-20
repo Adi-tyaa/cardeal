@@ -111,30 +111,28 @@
       <div id="box-1">
         <table>
           <tr>
-              <td>Toyota Corolla</td>
+              <td><button id="corolla">Toyota Corolla</button></td>
           </tr>
           <tr>
-              <td>Ford</td>
+              <td><button id="nissan">Nissan GTR</button></td>
+          </tr>
+          
+          <tr>
+              <td><button id="baleno">Maruti Suzuki</button></td>
           </tr>
           <tr>
-              <td>Honda</td>
+              <td><button id="pagani">Mazda</button></td>
           </tr>
           <tr>
-              <td>Chevrolet</td>
-          </tr>
-          <tr>
-              <td>Nissan</td>
-          </tr>
-          <tr>
-            <td>BMW</td>
+            <td><button id="gmc">GMC</button></td>
         </tr>
         <tr>
-          <td>Mercedes</td>
+          <td><button id="mercedes">Mercedes</button></td>
       </tr>
       </table>
       </div>
-      <div id="box-2">
-        <img src="toyotaCorolla.png" alt="" >
+      <div id="box-2" >
+        <img src="corolla.png" alt="" id="centerimage" >
       </div>
       <div id="box-3">
         <table border=".5"> 
@@ -404,6 +402,47 @@
     });
   });
 });
+
+let corollar = document.querySelector("#corolla");
+let nissan = document.querySelector('#nissan')
+let mercedes = document.querySelector('#mercedes');
+let baleno = document.querySelector('#baleno');
+let mazda = document.querySelector('#pagani');
+let gmc = document.querySelector('#gmc');
+let centerimage = document.querySelector('#centerimage');
+
+
+nissan.addEventListener('click', () => {
+  centerimage.src = 'nissangtr.png'
+  centerimage.style.paddingTop = '50px'
+})
+
+corolla.addEventListener('click', () => {
+
+  centerimage.src = 'corolla.png'
+  centerimage.style.paddingTop = '';
+})
+
+mercedes.addEventListener('click', () => {
+  centerimage.src = 'mercedes.png'
+  centerimage.style.paddingTop = '';
+})
+
+baleno.addEventListener('click', () => {
+  centerimage.src = 'baleno.jpg'
+  centerimage.style.paddingTop = '50px';
+
+})
+mazda.addEventListener('click', () => {
+  centerimage.src = 'pagani.jpeg'
+  centerimage.style.paddingTop = '50px';
+
+})
+gmc.addEventListener('click', () => {
+  centerimage.src = 'gmc.avif'
+  centerimage.style.paddingTop = '';
+
+})
 
 </script>
 
